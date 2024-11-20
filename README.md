@@ -1,5 +1,3 @@
-Certainly! Below is the `README.md` file written in code format for your **Expense Tracker App**.
-
 ````markdown
 # Expense Tracker App
 
@@ -126,10 +124,10 @@ For any questions or feedback, feel free to contact me at [your-email@example.co
 ```
 
 ### Notes:
-- **Screenshots**: You can replace the `./assets/screenshot.png` with the correct path to a screenshot of your app (if you have one).
-- **GitHub link**: Replace `https://github.com/your-username/expense-tracker-app.git` with your actual GitHub repository link.
-- **Email**: Replace `[your-email@example.com]` with your contact email.
-- **License**: If you're using a license, replace the `[LICENSE.md](LICENSE.md)` link with the path to your actual `LICENSE.md` file.
+- __Screenshots__: You can replace the `./assets/screenshot.png` with the correct path to a screenshot of your app (if you have one).
+- __GitHub link__: Replace `https://github.com/your-username/expense-tracker-app.git` with your actual GitHub repository link.
+- __Email__: Replace `[your-email@example.com]` with your contact email.
+- __License__: If you're using a license, replace the `[LICENSE.md](LICENSE.md)` link with the path to your actual `LICENSE.md` file.
 
-This `README.md` file will help users understand how to set up, use, and contribute to your **Expense Tracker App**. It also provides a clear structure for showcasing your app's features and the technologies used.
+This `README.md` file will help users understand how to set up, use, and contribute to your __Expense Tracker App**. It also provides a clear structure for showcasing your app's features and the technologies used.
 ```
