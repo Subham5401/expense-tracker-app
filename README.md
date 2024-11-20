@@ -48,7 +48,7 @@ To get a local copy of the Expense Tracker App up and running, follow these simp
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/expense-tracker-app.git
+   git clone https://github.com/Subham5401/expense-tracker-app.git
    ```
 ````
 
@@ -100,7 +100,7 @@ To get a local copy of the Expense Tracker App up and running, follow these simp
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
 
 ---
 
@@ -119,15 +119,4 @@ If you would like to contribute to this project, feel free to fork the repositor
 
 ### Contact
 
-For any questions or feedback, feel free to contact me at [your-email@example.com].
-
-```
-
-### Notes:
-- __Screenshots__: You can replace the `./assets/screenshot.png` with the correct path to a screenshot of your app (if you have one).
-- __GitHub link__: Replace `https://github.com/your-username/expense-tracker-app.git` with your actual GitHub repository link.
-- __Email__: Replace `[your-email@example.com]` with your contact email.
-- __License__: If you're using a license, replace the `[LICENSE.md](LICENSE.md)` link with the path to your actual `LICENSE.md` file.
-
-This `README.md` file will help users understand how to set up, use, and contribute to your __Expense Tracker App**. It also provides a clear structure for showcasing your app's features and the technologies used.
-```
+For any questions or feedback, feel free to contact me at [subhammishra@zohomail.com].
