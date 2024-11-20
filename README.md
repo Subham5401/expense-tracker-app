@@ -3,18 +3,18 @@
 
 ## Overview
 
-The **Expense Tracker App** is a simple, user-friendly tool that allows you to track your daily expenses, categorize them, and keep an eye on your budget. It enables users to add, edit, and delete expenses, and it gives a summary of the total expenses over time. This app helps users monitor their spending and manage their finances more effectively.
+The `Expense Tracker App` is a simple, user-friendly tool that allows you to track your daily expenses, categorize them, and keep an eye on your budget. It enables users to add, edit, and delete expenses, and it gives a summary of the total expenses over time. This app helps users monitor their spending and manage their finances more effectively.
 
 ---
 
 ## Features
 
-- **Add Expenses**: Easily add new expenses by entering the amount, category, and a description.
-- **Edit Expenses**: Update details of any expense you’ve already added.
-- **Delete Expenses**: Remove any expenses you no longer need.
-- **Expense Categories**: Classify your expenses into different categories (e.g., Food, Entertainment, Bills).
-- **Total Summary**: View the total amount of expenses over a selected time period (weekly, monthly, etc.).
-- **Responsive Design**: Fully responsive layout for mobile, tablet, and desktop views.
+- `Add Expenses`: Easily add new expenses by entering the amount, category, and a description.
+- `Edit Expenses`: Update details of any expense you’ve already added.
+- `Delete Expenses`: Remove any expenses you no longer need.
+- `Expense Categories`: Classify your expenses into different categories (e.g., Food, Entertainment, Bills).
+- `Total Summary`: View the total amount of expenses over a selected time period (weekly, monthly, etc.).
+- `Responsive Design`: Fully responsive layout for mobile, tablet, and desktop views.
 
 ---
 
@@ -26,11 +26,11 @@ The **Expense Tracker App** is a simple, user-friendly tool that allows you to t
 
 ## Technologies Used
 
-- **HTML5**: Structure and content of the app.
-- **CSS3**: Styling the app using Flexbox and Grid for layout.
-- **JavaScript**: Functionality for adding, editing, and deleting expenses. Local storage used to persist data across sessions.
-- **Local Storage**: Store expenses in the browser's local storage for persistence across page reloads.
-- **FontAwesome**: For icons representing categories and actions.
+- `HTML5`: Structure and content of the app.
+- `CSS3`: Styling the app using Flexbox and Grid for layout.
+- `JavaScript`: Functionality for adding, editing, and deleting expenses. Local storage used to persist data across sessions.
+- `Local Storage`: Store expenses in the browser's local storage for persistence across page reloads.
+- `FontAwesome`: For icons representing categories and actions.
 
 ---
 
@@ -45,7 +45,7 @@ To get a local copy of the Expense Tracker App up and running, follow these simp
 
 ### Setup Instructions
 
-1. **Clone the repository**:
+1. `Clone the repository`:
 
    ```bash
    git clone https://github.com/Subham5401/expense-tracker-app.git
