@@ -1,9 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import Profile from './pages/Profile/Profile';
+import Settings from './pages/Settings/Settings';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
-function App() {
-  return <div className='App'></div>;
+export default function App() {
+  return (
+    <Router>
+      <div className='App'>
+        <Routes>
+          <Route path='/profile' element={<Profile />} />
+          <Route path='/settings' element={<Settings />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
-
-export default App;
