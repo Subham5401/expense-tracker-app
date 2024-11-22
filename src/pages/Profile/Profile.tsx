@@ -12,14 +12,18 @@ export default function Profile() {
     <div className='container text-center'>
       <div className='row d-flex align-items-center mb-4 mt-4 p-2'>
         <div className='col text-start d-flex align-items-center'>
-          <img src={ProfilePic} className='rounded-circle profile-pic' />
+          <img
+            src={ProfilePic}
+            className='rounded-circle profile-pic'
+            alt='profile'
+          />
           <div className='col d-flex flex-column text-start p-2'>
             <span className='font-color-light-grey'>Username</span>
             <span className='header-font-style text-nowrap'>Subham Mishra</span>
           </div>
         </div>
         <div className='col text-end'>
-          <img src={Edit} />
+          <img src={Edit} alt='edit' />
         </div>
       </div>
       <div className='row profile-body-style rounded-top-left-right'>
@@ -46,6 +50,7 @@ export default function Profile() {
           <span className='p-2'>Logout</span>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
