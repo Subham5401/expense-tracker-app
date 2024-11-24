@@ -1,48 +1,42 @@
-/* Dropdown container styles */
 .dropdown {
-  position: relative; /* Makes the dropdown items position relative to this container */
+  position: relative;
 }
 
-/* Button styling */
 .dropdown-toggle {
-  padding: 10px 20px;          /* Padding inside the button */
-  border-radius: 25px;          /* Rounded corners for the button */
-  border: 1px solid #F1F1FA;   /* Blue border for the button */
-  background-color: #FFFFFF;   /* Blue background for the button */
-  color: #000;                /* White text */
-  cursor: pointer;             /* Pointer cursor for the button */
-  font-size: 16px;              /* Text size for the button */
+  padding: 10px 20px;         
+  border-radius: 25px;          
+  border: 1px solid #F1F1FA;   
+  background-color: #FFFFFF;  
+  color: #000;               
+  cursor: pointer;            
+  font-size: 16px;            
 }
 
-/* Dropdown menu styling */
 .dropdown-menu {
-  background-color: white;      /* White background */
-  border: 2px solid black;      /* Thin black border */
-  border-radius: 8px;           /* Rounded corners */
-  list-style-type: none;        /* Remove default list styling */
-  margin: 0;                    /* Remove margin */
-  padding: 0;                   /* Remove padding */
-  position: absolute;           /* Absolute positioning */
-  top: 100%;                    /* Position it below the button */
-  left: 0;                      /* Align with the left side of the button */
-  min-width: 160px;             /* Minimum width of the dropdown */
+  background-color: white;      
+  border: 2px solid black;     
+  border-radius: 8px;         
+  list-style-type: none;      
+  margin: 0;                   
+  padding: 0;                  
+  position: absolute;         
+  top: 100%;                  
+  left: 0;                     
+  min-width: 160px;             
 }
 
-/* Dropdown item styling */
 .dropdown-item {
-  padding: 10px 20px;           /* Add padding to dropdown items */
-  text-decoration: none;        /* Remove underline from links */
-  color: black;                 /* Text color */
-  display: block;               /* Display each item as a block element */
-  font-size: 14px;              /* Smaller text size for the items */
+  padding: 10px 20px;         
+  text-decoration: none;       
+  color: black;                
+  display: block;               
+  font-size: 14px;             
 }
 
-/* Hover effect for dropdown items */
 .dropdown-item:hover {
-  background-color: #f8f9fa;    /* Light background on hover */
-  color: #333;                  /* Darker text color on hover */
+  background-color: #f8f9fa;    
+  color: #333;                 
 }
-
 
 .sec-header-style{
   background-color: #EEE5FF;
@@ -78,7 +72,8 @@
   color: #00A86B;
 }
 
-.scroll{
-  overflow-y: auto !important;
-  flex-grow: 1;
+.scroll {
+  flex-grow: 1; 
+  overflow-y: auto;
+  height: 100vh;
 }
