@@ -1,0 +1,84 @@
+/* Dropdown container styles */
+.dropdown {
+  position: relative; /* Makes the dropdown items position relative to this container */
+}
+
+/* Button styling */
+.dropdown-toggle {
+  padding: 10px 20px;          /* Padding inside the button */
+  border-radius: 25px;          /* Rounded corners for the button */
+  border: 1px solid #F1F1FA;   /* Blue border for the button */
+  background-color: #FFFFFF;   /* Blue background for the button */
+  color: #000;                /* White text */
+  cursor: pointer;             /* Pointer cursor for the button */
+  font-size: 16px;              /* Text size for the button */
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+  background-color: white;      /* White background */
+  border: 2px solid black;      /* Thin black border */
+  border-radius: 8px;           /* Rounded corners */
+  list-style-type: none;        /* Remove default list styling */
+  margin: 0;                    /* Remove margin */
+  padding: 0;                   /* Remove padding */
+  position: absolute;           /* Absolute positioning */
+  top: 100%;                    /* Position it below the button */
+  left: 0;                      /* Align with the left side of the button */
+  min-width: 160px;             /* Minimum width of the dropdown */
+}
+
+/* Dropdown item styling */
+.dropdown-item {
+  padding: 10px 20px;           /* Add padding to dropdown items */
+  text-decoration: none;        /* Remove underline from links */
+  color: black;                 /* Text color */
+  display: block;               /* Display each item as a block element */
+  font-size: 14px;              /* Smaller text size for the items */
+}
+
+/* Hover effect for dropdown items */
+.dropdown-item:hover {
+  background-color: #f8f9fa;    /* Light background on hover */
+  color: #333;                  /* Darker text color on hover */
+}
+
+
+.sec-header-style{
+  background-color: #EEE5FF;
+  color: #7F3DFF;
+  border-radius: 12px;
+}
+
+.menu-style{
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.style-group-header{
+  color: #000;
+  font-weight: 600;
+}
+
+.style-transaction{
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #F1F1FA;
+  border-radius: 10px;
+  background-color: #FCFAFA;
+}
+
+.debit{
+  color: #FD3C4A;
+}
+
+.credit{
+  color: #00A86B;
+}
+
+.scroll{
+  overflow-y: auto !important;
+  flex-grow: 1;
+}
