@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Back from '../../assets/back.png';
+import Back from '../../assets/back_white.svg';
 import NumberKeypad from '../NumberKeypad/NumberKeypad';
 import './Add.css';
 
@@ -25,7 +25,7 @@ export default function Add() {
 
   return (
     <div className='container'>
-      <div className='row d-flex align-items-center p-3'>
+      <div className='row d-flex align-items-center pt-3'>
         <div className='col text-start'>
           <img src={Back} alt='back' />
         </div>
@@ -36,18 +36,20 @@ export default function Add() {
       </div>
 
       <div className='row d-flex flex-column'>
-        <div className='col text-start'>
+        <div className='col text-start style-amt-head'>
+          <span>How much?</span>
+        </div>
+
+        <div className='col text-start style-input-amount ps-3'>
+          <span>$</span>
           <input
             type='text'
             value={inputValue}
             onFocus={handleFocus}
             onChange={(e) => setInputValue(e.target.value)}
-            placeholder='How much?'
+            placeholder='0'
+            className='style-input-amount'
           />
-        </div>
-
-        <div className='col text-start style-input-amount p-3'>
-          <span>{`$${inputValue}` || '$0'}</span>
         </div>
       </div>
       {showKeypad && (
